@@ -1,65 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="icon" href="../img/icon.ico" type="image/x-icon">
+    <!-- icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!-- BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
-    <title>About us</title>
-</head>
-<body>
-    <!-- HEADER -->
-    <header class="header-content">
-      <div class="logo">
+    <title>Products</title>
+  </head>
+  <body>
+  <!-- HEADER -->
+  <header class="container">
+    <div class="header-content">
+      <div class="header-logo">
         <a href="../index.html">
-          <img src="../img/png/logo-no-background.png" alt="Verde logo">
+          <img src="../img/logo.png" alt="Verde logo">
         </a>
       </div>
-      
-      <nav class="navbar">
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="cart.html">Cart</a></li>
-          </ul>
+      <nav class="nav">
+        <ul class="nav justify-content-end">
+          <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+          <li class="nav-item active"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="cart.html" class="nav-link">Cart</a></li>
+        </ul>
       </nav>
-    </header>
+    </div>
+  </header>
     <!-- MAIN CONTENT -->
-  <main>
-    <section class="purpose">
-        <div>
-            <h2>VERDE PURPOSE</h2>
-        </div>
-        <div>
-            <p>At Verde, our purpose is much more than selling products; it's about fostering a brighter, greener future for our planet. We recognize that the actions we take today impact the world we live in tomorrow, and that's why we are committed to providing high-quality, accessible, and easy-to-use renewable energy solutions.</p>
-        </div>
+  <main class="container about">
+    <section class="row">
+      <div>
+        <h2 class="display-5 h2">Purpose</h2>
+      </div>
+      <div>
+        <p class="blockquote">At Verde, our purpose is much more than selling products; it's about fostering a brighter, greener future for our planet. We recognize that the actions we take today impact the world we live in tomorrow, and that's why we are committed to providing high-quality, accessible, and easy-to-use renewable energy solutions.</p>
+      </div>
     </section>
-    <section class="team">
-        <div>
-            <h2>TEAM</h2>
-        </div>
-        <div>
-            <p>Our team is made up of passionate and dedicated individuals who share this vision. From our engineers who seek out the most innovative and effective renewable energy products, to our customer service specialists who are always ready to assist and guide you, everyone at Verde is committed to your satisfaction and the future of our planet.</p>
-        </div>
+    
+    <section class="row">
+      <div>
+        <h2 class="display-5 h2">Team</h2>
+      </div>
+      <div>
+        <p class="blockquote">Our team is made up of passionate and dedicated individuals who share this vision. From our engineers who seek out the most innovative and effective renewable energy products, to our customer service specialists who are always ready to assist and guide you, everyone at Verde is committed to your satisfaction and the future of our planet.</p>
+      </div>
+    </section>
+
+    <section class="row">
+      <div>
+        <h2 class="display-5 h2">Principles</h2>
+      </div>
+      <div>
+        <p class="blockquote">We work with responsibility, respect, and honesty, and we place our clients and our planet at the center of everything we do. We don't just sell products; we offer the opportunity for meaningful change, for you and for the world.</p>
+      </div>
     </section>
   </main>
-    <!-- FOOTER -->
-    <footer class="footer-content">
-        <div class="social-media">
-            <a href="https://www.facebook.com" class="social-icon"><i class="fab fa-facebook"></i></a>
-            <a href="https://twitter.com" class="social-icon"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com" class="social-icon"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com" class="social-icon"><i class="fab fa-linkedin"></i></a>
-        </div>
-        <div class="footer-links">
-            <ul>
-                <li><a href="terms.html">Terms & Conditions</a></li>
-                <li><a href="privacy.html">Privacy Policy</a></li>
-            </ul>
-        </div>
-    </footer>
+<!-- FOOTER -->
+<footer class="container">
+  <div class="footer-content">
+    <div class="social-media">
+      <a href="https://www.facebook.com" class="social-icon"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com" class="social-icon"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com" class="social-icon"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <div class="nav">
+      <ul class="nav justify-content-end">
+        <li class="nav-item"><a class="nav-link"href="terms.html">Terms & Conditions</a></li>
+        <li class="nav-item"><a class="nav-link"href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

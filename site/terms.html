@@ -1,80 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/icon.ico" type="image/x-icon">
+    <!-- icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link rel="icon" href="img/icon.ico" type="image/x-icon">
+    <!-- BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
-    <title>General terms and conditions</title>
-</head>
-<body>
-    <!-- HEADER -->
-    <header class="header-content">
-      <div class="logo">
+    <title>Products</title>
+  </head>
+  <body>
+  <!-- HEADER -->
+  <header class="container">
+    <div class="header-content">
+      <div class="header-logo">
         <a href="../index.html">
-          <img src="../img/png/logo-no-background.png" alt="Verde logo">
+          <img src="../img/logo.png" alt="Verde logo">
         </a>
       </div>
-    
-      <nav class="navbar">
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="cart.html">Cart</a></li>
+      <nav class="nav">
+        <ul class="nav justify-content-end">
+          <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="cart.html" class="nav-link">Cart</a></li>
         </ul>
       </nav>
-    </header>
-    <!-- MAIN CONTENT -->
-  <main>
+    </div>
+  </header>
+  <!-- MAIN CONTENT -->
+  <main class="container">
     <article id="content">
-        <h1>Terms and Conditions</h1>
-        <p>These Terms and Conditions govern your use of the Verde website and the purchase of products from Verde. Please read these Terms and Conditions carefully before using our website or purchasing our products. By using our website, you agree to be bound by these Terms and Conditions.</p>
-    
-        <h2>1. Products</h2>
-        <p>All products listed on our website are subject to availability, and we reserve the right to change the products that are available at any time.</p>
-    
-        <h2>2. Pricing</h2>
-        <p>Prices for our products are subject to change without notice.</p>
-    
-        <h2>3. Orders</h2>
-        <p>When you place an order, we will confirm receipt of your order by sending you an email. However, this does not mean that your order has been accepted. We reserve the right to reject any order for any reason.</p>
-    
-        <h2>4. Payment</h2>
-        <p>We accept all major credit cards. Payment will be taken at the time of ordering.</p>
-    
-        <h2>5. Returns and Refunds</h2>
-        <p>For information about returns and refunds, please refer to our Returns Policy.</p>
-    
-        <h2>6. Privacy</h2>
-        <p>We respect your privacy and will use your personal information in accordance with our Privacy Policy.</p>
-    
-        <h2>7. Limitation of Liability</h2>
-        <p>Verde will not be liable for any indirect, special, incidental, punitive, or consequential damages of any kind, including, but not limited to, loss of revenue, loss of profits, loss of business, or other financial loss arising out of or in connection with the website or the use of our products, even if we have been advised of the possibility of such damages.</p>
-    
-        <h2>8. Changes to Terms and Conditions</h2>
-        <p>We reserve the right to change these Terms and Conditions at any time. Any changes will be posted on this page, and by continuing to use the website after changes are posted, you agree to accept any such changes.</p>
-    
-        <h2>9. Contact Us</h2>
-        <p>If you have any questions about these Terms and Conditions, please contact us at contacto@verdeecopower.com.</p>
-    </article>
-  </main>
-    <!-- FOOTER -->
-    <footer class="footer-content">
-      <div class="social-media">
-          <a href="https://www.facebook.com" class="social-icon"><i class="fab fa-facebook"></i></a>
-          <a href="https://twitter.com" class="social-icon"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.instagram.com" class="social-icon"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.linkedin.com" class="social-icon"><i class="fab fa-linkedin"></i></a>
-      </div>
-      <div class="footer-links">
-          <ul>
-              <li><a href="terms.html">Terms & Conditions</a></li>
-              <li><a href="privacy.html">Privacy Policy</a></li>
-          </ul>
-      </div>
-  </footer>
+
+    <div class="row">
+      <h1 class="h1">Terms and Conditions</h1>
+      <p class="font-monospace">
+        These Terms and Conditions govern your use of the Verde website and the purchase of products from Verde.
+        Please read these Terms and Conditions carefully before using our website or purchasing our products.
+        By using our website, you agree to be bound by these Terms and Conditions.
+      </p>
+    </div>
+
+    <section class="row">
+      <h2>1. Products</h2>
+      <p class="font-monospace">
+        All products listed on our website are subject to availability,
+        and we reserve the right to change the products that are available at any time.
+      </p>
+    </section>
+
+    <section class="row">
+      <h2>2. Pricing</h2>
+      <p class="font-monospace">
+        Prices for our products are subject to change without notice.
+      </p>
+    </section>
+
+    <section class="row">
+      <h2>3. Orders</h2>
+      <p class="font-monospace">
+        When you place an order, we will confirm receipt of your order by sending you an email.
+        However, this does not mean that your order has been accepted.
+        We reserve the right to reject any order for any reason.
+      </p>
+    </section>
+
+    <section class="row">
+      <h2>4. Payment</h2>
+      <p class="font-monospace">
+        We accept all major credit cards. Payment will be taken at the time of ordering.
+      </p>
+    </section>
+
+    <section class="row">
+      <h2>5. Returns and Refunds</h2>
+      <p class="font-monospace">
+        For information about returns and refunds, please refer to our Returns Policy.
+      </p>
+    </section>
+
+    <section class="row">
+      <h2>6. Privacy</h2>
+      <p class="font-monospace">
+        We respect your privacy and will use your personal information in accordance with our Privacy Policy.
+      </p>
+    </section>
+
+    <section class="row">
+      <h2>7. Limitation of Liability</h2>
+      <p class="font-monospace">
+        Verde will not be liable for any indirect, special, incidental, punitive, or consequential damages
+        of any kind, including, but not limited to, loss of revenue, loss of profits, loss of business,
+        or other financial loss arising out of or in connection with the website or the use of our products,
+        even if we have been advised of the possibility of such damages.
+      </p>
+    </section>
+
+    <section class="row">
+      <h2>8. Changes to Terms and Conditions</h2>
+      <p class="font-monospace">
+        We reserve the right to change these Terms and Conditions at any time.
+        Any changes will be posted on this page, and by continuing to use the website after changes are posted,
+        you agree to accept any such changes.
+      </p>
+    </section>
+
+    <section class="row">
+      <h2>9. Contact Us</h2>
+      <p class="font-monospace">
+        If you have any questions about these Terms and Conditions,
+        please contact us at contacto@verdeecopower.com.
+      </p>
+    </section>
+
+  </article>
+</main>
+
+<!-- FOOTER -->
+<footer class="container">
+  <div class="footer-content">
+    <div class="social-media">
+      <a href="https://www.facebook.com" class="social-icon"><i class="fab fa-facebook"></i></a>
+      <a href="https://twitter.com" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com" class="social-icon"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com" class="social-icon"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <div class="nav">
+      <ul class="nav justify-content-end">
+        <li class="nav-item active"><a class="nav-link"href="terms.html">Terms & Conditions</a></li>
+        <li class="nav-item"><a class="nav-link"href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
