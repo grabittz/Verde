@@ -11,25 +11,32 @@
     <title>Products</title>
   </head>
   <body>
-  <!-- HEADER -->
-  <header class="container">
-    <div class="header-content">
-      <div class="header-logo">
-        <a href="../index.html">
-          <img src="../img/logo.png" alt="Verde logo">
-        </a>
+<!-- HEADER -->
+<header class="container">
+  <nav class="container header-content navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <div class="navbar-brand header-logo"><a href="../index.html"><img src="../img/logo.png" alt="Verde"></a></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h3 class="offcanvas-title" id="offcanvasNavbarLabel">Verde</h3>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item active"><a href="../index.html" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="cart.html" class="nav-link">Cart</a></li>
+          </ul>
+        </div>
       </div>
-      <nav class="nav">
-        <ul class="nav justify-content-end">
-          <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-          <li class="nav-item active"><a href="cart.html" class="nav-link">Cart</a></li>
-        </ul>
-      </nav>
     </div>
-  </header>
+  </nav>
+</header>
     <!-- MAIN CONTENT -->
   <main class="container cart">
     <section>
