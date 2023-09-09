@@ -1,4 +1,4 @@
-/* estilizacion base del footer */
+/* FOOTER */
 .footer-content{
   background-color: $background-color;
   display: flex;
@@ -19,7 +19,6 @@
   }
 }
 @media (max-width: 48rem){
-  /* start HEADER AND FOOTER */
   .footer-content{
     flex-direction: column;
     align-items:center;
