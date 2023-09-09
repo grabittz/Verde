@@ -1,0 +1,27 @@
+/* introducir typografia y letras colores */
+@import "mixin";
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+:is(h1, h2, h3, h4, p){
+  @include flexible(flex, row, center, center);
+  color:$text-color;
+  margin: 1rem;
+  text-align: center;
+}
+:is(h1, h2, h3, h4){
+  font-size: 1.5rem;
+}
+.header-background{
+  font-size: 2rem;
+  background: $primary-color;
+  background: linear-gradient(to right, $primary-color, $secundary-color, $link-color);
+}
+a{
+  text-decoration: none;
+  color:$link-color;
+  &:is(:hover, :focus){
+    color:$primary-color;
+  }
+}

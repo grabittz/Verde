@@ -1,0 +1,24 @@
+@mixin background-gradient($dir, $colorA, $colorB, $colorC){
+  background-image: linear-gradient(to $dir, $colorA, $colorB, $colorC); //to right, #4CB8C4 0%, #3CD3AD  51%, #4CB8C4  100%
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  &:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+@mixin flexible( $dis , $direction , $just , $align ){
+  display         : $dis;
+  flex-direction  : $direction;
+  justify-content : $just;
+  align-items     : $align;
+}

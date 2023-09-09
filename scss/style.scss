@@ -1,0 +1,18 @@
+/* base style */
+@import "base/reset";
+@import "base/colors";
+@import "base/typo";
+@import "base/mixin";
+
+/* website */
+@import "components/header";
+@import "components/index";
+@import "components/footer";
+
+@import "components/products";
+@import "components/about";
+@import "components/contact";
+@import "components/cart";
+
+@import "components/terms";
+@import "components/privacy";

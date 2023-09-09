@@ -1,0 +1,25 @@
+/* start HEADER AND FOOTER */  
+
+.header-content{
+  background-color: $background-color;
+  .header-logo a img{
+    width: 8.75rem;
+    margin: 1.25rem;
+  }
+  .navbar-toggler i{
+    color: $secundary-color;
+  }
+  .offcanvas{
+    background-color: $background-color;
+    .offcanvas-header .offcanvas-title{
+      color:$link-color;
+    }
+    .offcanvas-body .navbar-nav .nav-link{
+      color: $link-color;
+      &:is(.nav-link:focus, .nav-link:hover){
+        color:$primary-color;
+      }
+    }
+  }
+}
+/* end HEADER AND FOOTER */

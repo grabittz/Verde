@@ -1,0 +1,63 @@
+/* INDEX */
+.carousel{
+  height:30rem;
+  background-color: #fff;
+  .carousel-inner .carousel-item .carousel-img{
+    margin: 2.5rem;
+    height:25rem;
+  }
+}
+:is(.carousel-control-prev-icon, .carousel-control-next-icon){
+  background-color: $background-color;
+  border-radius: 100%;
+}
+
+.product{
+  text-align: center;
+  img{
+    padding:1rem;
+    width: 15rem;
+    height: 15rem;
+    border: #09BC8A 4px ridge;
+  }
+}
+
+.testimonial .card-body p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem;
+}
+.newsletter{
+  margin: 0;
+  padding: 1rem;
+  .newsletter__heading{
+    margin: 1rem;
+    @include background-gradient(bottom, $text-color, map-get($rgb, "red"), $text-color );
+  }
+  .newsletter__text{
+    margin: 1rem;
+    .newsletter__form{
+      margin: 1rem;
+    }
+  }
+}
+@media (max-width: 62rem){
+  .carousel{
+    height: 20rem;
+    .carousel-inner .carousel-item .carousel-img{
+      margin: 2.5rem;
+      height:15rem;
+    }
+  }
+  
+}
+@media (max-width: 48rem){
+  .carousel{
+    height: 15rem;
+    .carousel-inner .carousel-item .carousel-img{
+      margin: 1rem;
+      height:13rem;
+    }
+  }
+}

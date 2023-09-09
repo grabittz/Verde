@@ -1,0 +1,32 @@
+/* estilizacion base del footer */
+.footer-content{
+  background-color: $background-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .social-media{
+    padding: 2rem;
+    .social-icon{
+      font-size: 1.5rem;
+      margin: .5rem;
+    }
+  }
+  .nav-link{
+    color: $link-color;
+    &:is(.nav-link:focus, .nav-link:hover){
+      color:$primary-color;
+    }
+  }
+}
+@media (max-width: 48rem){
+  /* start HEADER AND FOOTER */
+  .footer-content{
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height:10rem;
+    .others-links .nav{
+      justify-content: center;
+    }
+  }
+}

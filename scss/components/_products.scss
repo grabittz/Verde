@@ -1,0 +1,3 @@
+.product .btn{
+    @include background-gradient(right, $text-color, $primary-color, $background-color);
+}
