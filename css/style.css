@@ -1,13 +1,13 @@
 /* base style */
-/* formateo base del style.css */
+/* RESET SITE */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* definir colores para usar en el proyecto */
-/* introducir typografia y letras colores */
+/* COLORS */
+/* TYPOGRAPHY CONFIG */
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -41,7 +41,7 @@ a:is(:hover, :focus) {
 }
 
 /* website */
-/* start HEADER AND FOOTER */
+/*HEADER */
 .header-content {
   background-color: #004346;
 }
@@ -65,7 +65,6 @@ a:is(:hover, :focus) {
   color: #09BC8A;
 }
 
-/* end HEADER AND FOOTER */
 /* INDEX */
 .carousel {
   height: 30rem;
@@ -145,7 +144,7 @@ a:is(:hover, :focus) {
     height: 13rem;
   }
 }
-/* estilizacion base del footer */
+/* FOOTER */
 .footer-content {
   background-color: #004346;
   display: flex;
@@ -167,7 +166,6 @@ a:is(:hover, :focus) {
 }
 
 @media (max-width: 48rem) {
-  /* start HEADER AND FOOTER */
   .footer-content {
     flex-direction: column;
     align-items: center;
@@ -178,6 +176,7 @@ a:is(:hover, :focus) {
     justify-content: center;
   }
 }
+/* PRODUCTS */
 .product .btn {
   background-image: linear-gradient(to right, #3c3c3c, #09BC8A, #004346);
   margin: 10px;
@@ -196,18 +195,24 @@ a:is(:hover, :focus) {
   text-decoration: none;
 }
 
+/* ABOUT */
 .about section {
   margin: 2rem;
 }
 
 /* CONTACT */
-.contact h2 {
+.bg-img {
+  background-image: url("../../img/contact/bg-img.jpg");
+  min-height: 380px;
+  padding: 3rem;
+}
+.bg-img .contact h1 {
+  padding: 1rem;
+}
+.bg-img .contact .contact__form {
   margin: 3rem 20%;
 }
-.contact .contact__form {
-  margin: 3rem 20%;
-}
-.contact .contact__form .form-floating {
+.bg-img .contact .contact__form .form-floating {
   margin-top: 0.5rem;
 }
 
@@ -220,25 +225,32 @@ a:is(:hover, :focus) {
   }
 }
 /* CART */
-.cart section {
+.bg-img .cart {
+  padding: 10rem;
   display: flex;
-  align-items: center;
   flex-direction: column;
-  margin: 20rem 0;
+  justify-content: center;
+  align-items: center;
+}
+.bg-img .cart h1 {
+  background-color: #004346;
+  padding: 0.25rem;
+  border-radius: 1rem;
+  border: solid #fff 0.25rem;
+  color: #fff;
 }
 
 @media (max-width: 62rem) {
-  /* CART */
-  .cart section {
-    margin: 15rem 0;
+  .bg-img .cart {
+    padding: 5rem 0;
   }
 }
 @media (max-width: 48rem) {
-  /* CART */
-  .cart section {
-    margin: 12rem 0;
+  .bg-img .cart {
+    margin: 2rem 0;
   }
 }
+/* TERMS AND PRIVACY */
 #content {
   margin: 1rem 12rem;
 }

@@ -1,17 +1,24 @@
 /* CART */
-.cart section{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin: 20rem 0;
+.bg-img{
+  .cart{
+    padding: 10rem;
+    @include flexible( flex , column , center , center);
+    h1{
+      background-color: $background-color;
+      padding: .25rem;
+      border-radius: 1rem;
+      border: solid $link-color .25rem;
+      color: $link-color;
+    }
+  }
 }
 @media (max-width: 62rem){
-  .cart section{
-    margin: 15rem 0;
+  .bg-img .cart{
+    padding: 5rem 0;
   }
 }
 @media (max-width: 48rem){
-  .cart section{
-    margin: 12rem 0;
+  .bg-img .cart{
+    margin: 2rem 0;
   }
 }

@@ -40,33 +40,35 @@
     </div>
   </nav>
 </header>
-    <!-- MAIN CONTENT -->
-  <main>
+<!-- MAIN CONTENT -->
+<main class="container">
+  <div class="bg-img">
     <section class="container contact">
-        <h1 class="header-background">Send a Quest</h1>
-        <form name="comments" method="post" class="contact__form" data-netlify="true">
-          <div class="row">
-            <div class="col-12 col-md-6">
-                <label for="fname">Full name:</label>
-                <input type="text" class="form-control" placeholder="Full name" id="fname" name="fname" required>
-            </div>
-            <div class="col-12 col-md-6">
-                <label for="subject">Subject:</label>
-                <input type="text" class="form-control" placeholder="Subject" id="subject" name="subject" required>
-            </div>
+      <h1 class="header-background">Send a Quest</h1>
+      <form name="comments" method="post" class="contact__form" data-netlify="true">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <label for="fname">Full name:</label>
+            <input type="text" class="form-control" placeholder="Full name" id="fname" name="fname" required>
           </div>
-          <div class="col-12">
-            <label for="email">Email:</label>
-            <input type="email" class="form-control" placeholder="Email" id="email" name="email" required>
+          <div class="col-12 col-md-6">
+            <label for="subject">Subject:</label>
+            <input type="text" class="form-control" placeholder="Subject" id="subject" name="subject" required>
           </div>
-          <div class="col-12 form-floating">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-            <label for="floatingTextarea">Leave a comment here</label>
-            <input type="submit" value="Submit" class="btn btn-danger">
-          </div>
-        </form> 
+        </div>
+        <div class="col-12">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" placeholder="Email" id="email" name="email" required>
+        </div>
+        <div class="col-12 form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+          <label for="floatingTextarea">Leave a comment here</label>
+          <input type="submit" value="Submit" class="btn btn-danger">
+        </div>
+      </form> 
     </section>
-  </main>
+  </div>
+</main>
 <!-- FOOTER -->
 <footer class="container">
   <div class="footer-content">

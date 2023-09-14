@@ -15,7 +15,6 @@
     text-decoration: none;
   }
 }
-
 @mixin flexible( $dis , $direction , $just , $align ){
   display         : $dis;
   flex-direction  : $direction;

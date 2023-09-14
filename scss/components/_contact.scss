@@ -1,13 +1,17 @@
 /* CONTACT */
-
-.contact{
-  h2{
-    margin: 3rem 20%;
-  }
-  .contact__form {
-    margin: 3rem 20%;
-    .form-floating{
-      margin-top: .5rem;
+.bg-img {
+  background-image: url("../../img/contact/bg-img.jpg");
+  min-height: 380px;
+  padding: 3rem;
+  .contact{
+    h1{
+      padding: 1rem;
+    }
+    .contact__form {
+      margin: 3rem 20%;
+      .form-floating{
+        margin-top: .5rem;
+      }
     }
   }
 }
