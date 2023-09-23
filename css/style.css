@@ -217,10 +217,13 @@ a:is(:hover, :focus) {
 }
 
 @media (max-width: 48rem) {
-  .contact h2 {
+  .bg-img {
+    padding: 3rem 0;
+  }
+  .bg-img .contact h1 {
     margin: 3rem 1rem;
   }
-  .contact .contact__form {
+  .bg-img .contact .contact__form {
     margin: 4rem 1rem;
   }
 }

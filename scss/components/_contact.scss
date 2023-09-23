@@ -17,12 +17,15 @@
 }
 
 @media (max-width: 48rem){  
-  .contact{
-    h2{
-      margin: 3rem 1rem;
-    }
-    .contact__form {
-      margin: 4rem 1rem;
+  .bg-img {
+    padding:3rem 0;
+    .contact{
+      h1{
+        margin: 3rem 1rem;
+      }
+      .contact__form {
+        margin: 4rem 1rem;
+      }
     }
   }
 }
