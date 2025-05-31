@@ -17,4 +17,4 @@ Sitio web de una marca ficticia ecológica, desarrollado como proyecto personal 
 
 ## 🚀 Ver el sitio en vivo
 
-👉 [https://grabittz.github.io/Verde/](https://grabittz.github.io/Verde/)
+👉 [https://grabittz.github.io/Verde/](https://verdeco.netlify.app)
